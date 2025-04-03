@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracy Leffler, LMFT - Somatic Therapy</title>
+  <meta name="description" content="Somatic therapy for mind-body healing with Tracy Leffler, Licensed Marriage and Family Therapist specializing in somatic therapy, nervous system regulation, and mindfulness.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="flex min-h-screen flex-col">
+    <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div class="container flex h-16 items-center justify-between">
+        <a href="/" class="font-serif text-xl font-medium">
+          Tracy Leffler, LMFT
+        </a>
+        <nav class="hidden md:flex gap-6">
+          <a href="#about" class="text-sm font-medium hover:text-primary transition-colors">
+            About
+          </a>
+          <a href="#specialties" class="text-sm font-medium hover:text-primary transition-colors">
+            Specialties
+          </a>
+          <a href="#approach" class="text-sm font-medium hover:text-primary transition-colors">
+            Approach
+          </a>
+          <a href="#contact" class="text-sm font-medium hover:text-primary transition-colors">
+            Contact
+          </a>
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden" aria-label="Toggle menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="mobile-menu" class="fixed inset-y-0 right-0 z-50 w-[300px] sm:w-[400px] bg-background shadow-lg transform translate-x-full transition-transform duration-200 ease-in-out">
+      <div class="flex justify-end p-4">
+        <button id="close-menu-button" aria-label="Close menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="flex flex-col gap-6 mt-10 px-6">
+        <a href="#about" class="text-lg font-medium hover:text-primary transition-colors mobile-link">
+          About
+        </a>
+        <a href="#specialties" class="text-lg font-medium hover:text-primary transition-colors mobile-link">
+          Specialties
+        </a>
+        <a href="#approach" class="text-lg font-medium hover:text-primary transition-colors mobile-link">
+          Approach
+        </a>
+        <a href="#contact" class="text-lg font-medium hover:text-primary transition-colors mobile-link">
+          Contact
+        </a>
+      </div>
+    </div>
+
+    <main class="flex-1">
+      <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <div class="container px-4 md:px-6">
+          <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <div class="flex flex-col justify-center space-y-4">
+              <div class="space-y-2">
+                <h1 class="text-3xl font-serif font-medium tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  Somatic Therapy for Mind-Body Healing
+                </h1>
+                <p class="max-w-[600px] text-muted-foreground md:text-xl">
+                  Reconnect with your body's wisdom and develop a deeper understanding of your nervous system.
+                </p>
+              </div>
+              <div class="flex flex-col gap-2 min-[400px]:flex-row">
+                <a href="#contact" class="inline-flex items-center justify-center rounded-full text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
+                  Schedule a Consultation
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
+                    <path d="m9 18 6-6-6-6"></path>
+                  </svg>
+                </a>
+                <a href="#approach" class="inline-flex items-center justify-center rounded-full text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8">
+                  Learn About My Approach
+                </a>
+              </div>
+            </div>
+            <img
+              src="https://placehold.co/550x550/png"
+              alt="Tracy Leffler, LMFT"
+              class="mx-auto aspect-square overflow-hidden rounded-full object-cover object-center sm:w-full lg:order-last"
+              width="550"
+              height="550"
+            />
+          </div>
+        </div>
+      </section>
+      
+      <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-muted/30">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-serif font-medium tracking-tighter sm:text-5xl">About Tracy</h2>
+              <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                As a Licensed Marriage and Family Therapist, I specialize in somatic therapy, helping clients reconnect with their bodies and develop a deeper understanding of their nervous system responses.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
+            <img
+              src="https://placehold.co/400x400/png"
+              alt="Tracy in her office"
+              class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+              width="400"
+              height="400"
+            />
+            <div class="flex flex-col justify-center space-y-4">
+              <div class="space-y-2">
+                <h3 class="text-xl font-medium">My Journey</h3>
+                <p class="text-muted-foreground">
+                  With over 10 years of experience, I've dedicated my practice to helping individuals navigate life's challenges through a holistic approach that honors the connection between mind and body.
+                </p>
+              </div>
+              <div class="space-y-2">
+                <h3 class="text-xl font-medium">My Philosophy</h3>
+                <p class="text-muted-foreground">
+                  I believe that healing happens when we listen to our bodies, recognize our emotions, and develop awareness of our patterns. Through mindfulness and somatic practices, we can create lasting change and resilience.
+                </p>
+              </div>
+              <div class="space-y-2">
+                <h3 class="text-xl font-medium">Education & Training</h3>
+                <p class="text-muted-foreground">
+                  Master's in Marriage and Family Therapy<br />
+                  Certified in Somatic Experiencing<br />
+                  Trained in Mindfulness-Based Stress Reduction
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="specialties" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-serif font-medium tracking-tighter sm:text-5xl">Specialties</h2>
+              <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                I offer specialized therapy in several areas to support your unique healing journey.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto grid max-w-5xl gap-6 py-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-none shadow-sm">
+              <div class="flex flex-col space-y-1.5 p-6 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+                  <path d="M20.42 9c.14-.55.22-1.12.22-1.7 0-3.31-2.69-6-6-6a5.99 5.99 0 0 0-5.94 5.33c-.27-.08-.54-.14-.83-.14-1.74 0-3.15 1.44-3.15 3.21 0 .9.37 1.7.99 2.26"></path>
+                  <path d="M8 9h.09"></path>
+                  <path d="M9 4h.092"></path>
+                  <path d="M14 4h.092"></path>
+                  <path d="M20 6h.092"></path>
+                  <path d="M20 14h.092"></path>
+                  <path d="M3 14h.092"></path>
+                  <path d="M3 18h.092"></path>
+                  <path d="M9 18h.092"></path>
+                  <path d="M14 18h.092"></path>
+                  <path d="M20 18h.092"></path>
+                  <path d="M3 6h.092"></path>
+                  <path d="M3 10h.092"></path>
+                  <path d="M14 10h.092"></path>
+                  <path d="M20 10h.092"></path>
+                  <path d="M9 14h.092"></path>
+                </svg>
+                <h3 class="text-xl font-semibold leading-none tracking-tight">Trauma Recovery</h3>
+              </div>
+              <div class="p-6 pt-0">
+                <p class="text-base text-muted-foreground">
+                  Process and heal from past trauma through somatic experiencing and nervous system regulation.
+                </p>
+              </div>
+            </div>
+            
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-none shadow-sm">
+              <div class="flex flex-col space-y-1.5 p-6 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                </svg>
+                <h3 class="text-xl font-semibold leading-none tracking-tight">Anxiety & Stress</h3>
+              </div>
+              <div class="p-6 pt-0">
+                <p class="text-base text-muted-foreground">
+                  Develop tools to manage anxiety and stress through mindfulness and somatic awareness.
+                </p>
+              </div>
+            </div>
+            
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-none shadow-sm">
+              <div class="flex flex-col space-y-1.5 p-6 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                <h3 class="text-xl font-semibold leading-none tracking-tight">Relationship Issues</h3>
+              </div>
+              <div class="p-6 pt-0">
+                <p class="text-base text-muted-foreground">
+                  Improve communication, set boundaries, and develop healthier relationship patterns.
+                </p>
+              </div>
+            </div>
+            
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-none shadow-sm">
+              <div class="flex flex-col space-y-1.5 p-6 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+                  <path d="M2 22 16 8"></path>
+                  <path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"></path>
+                  <path d="M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"></path>
+                  <path d="M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z"></path>
+                  <path d="M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z"></path>
+                </svg>
+                <h3 class="text-xl font-semibold leading-none tracking-tight">Life Transitions</h3>
+              </div>
+              <div class="p-6 pt-0">
+                <p class="text-base text-muted-foreground">
+                  Navigate major life changes with greater ease, clarity, and emotional resilience.
+                </p>
+              </div>
+            </div>
+            
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-none shadow-sm">
+              <div class="flex flex-col space-y-1.5 p-6 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+                  <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+                  <path d="M5 3v4"></path>
+                  <path d="M19 17v4"></path>
+                  <path d="M3 5h4"></path>
+                  <path d="M17 19h4"></path>
+                </svg>
+                <h3 class="text-xl font-semibold leading-none tracking-tight">Self-Discovery</h3>
+              </div>
+              <div class="p-6 pt-0">
+                <p class="text-base text-muted-foreground">
+                  Explore your authentic self and develop a deeper connection with your values and purpose.
+                </p>
+              </div>
+            </div>
+            
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm border-none shadow-sm">
+              <div class="flex flex-col space-y-1.5 p-6 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+                  <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+                  <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+                  <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path>
+                </svg>
+                <h3 class="text-xl font-semibold leading-none tracking-tight">Emotional Regulation</h3>
+              </div>
+              <div class="p-6 pt-0">
+                <p class="text-base text-muted-foreground">
+                  Learn to identify, express, and process emotions in a healthy and constructive way.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="approach" class="w-full py-12 md:py-24 lg:py-32 bg-muted/30">
+        <div class="container px-4 md:px-6">
+          <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <img
+              src="https://placehold.co/550x550/png"
+              alt="Somatic therapy session"
+              class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+              width="550"
+              height="550"
+            />
+            <div class="flex flex-col justify-center space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-serif font-medium tracking-tighter sm:text-5xl">My Approach</h2>
+                <p class="max-w-[600px] text-muted-foreground md:text-xl">
+                  I integrate somatic therapy with mindfulness practices to help you develop a deeper connection with your body and emotions.
+                </p>
+              </div>
+              <ul class="grid gap-6">
+                <li>
+                  <div class="grid gap-1">
+                    <h3 class="text-xl font-medium">Understanding the Nervous System</h3>
+                    <p class="text-muted-foreground">
+                      Learn how your body responds to stress and trauma, and develop tools to regulate your nervous system.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="grid gap-1">
+                    <h3 class="text-xl font-medium">Embracing Mindfulness</h3>
+                    <p class="text-muted-foreground">
+                      Cultivate present-moment awareness to break free from automatic patterns and create new possibilities.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="grid gap-1">
+                    <h3 class="text-xl font-medium">Recognizing Emotions</h3>
+                    <p class="text-muted-foreground">
+                      Develop the capacity to identify, express, and process emotions in a healthy and constructive way.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="grid gap-1">
+                    <h3 class="text-xl font-medium">Developing Awareness</h3>
+                    <p class="text-muted-foreground">
+                      Build a deeper understanding of yourself, your patterns, and your needs to create lasting change.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="contact" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+          <div class="space-y-3">
+            <h2 class="text-3xl font-serif font-medium tracking-tighter md:text-4xl/tight">
+              Ready to Begin Your Healing Journey?
+            </h2>
+            <p class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Contact me to schedule a consultation and take the first step toward healing and growth.
+            </p>
+          </div>
+          <div class="mx-auto w-full max-w-sm space-y-2">
+            <form id="contact-form" class="space-y-4 mt-6">
+              <div class="grid gap-2">
+                <label for="name" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Name</label>
+                <input id="name" name="name" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" />
+              </div>
+              <div class="grid gap-2">
+                <label for="email" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Email</label>
+                <input id="email" name="email" type="email" required class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" />
+              </div>
+              <div class="grid gap-2">
+                <label for="phone" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Phone (optional)</label>
+                <input id="phone" name="phone" type="tel" class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" />
+              </div>
+              <div class="grid gap-2">
+                <label for="message" class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">Message</label>
+                <textarea id="message" name="message" rows="4" required class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"></textarea>
+              </div>
+              <button type="submit" id="submit-button" class="inline-flex items-center justify-center rounded-full text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="w-full border-t py-6 md:py-0">
+      <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+        <p class="text-center text-sm leading-loose text-muted-foreground md:text-left">
+          © <span id="current-year"></span> Tracy Leffler, LMFT. All rights reserved.
+        </p>
+        <div class="flex gap-4">
+          <a href="#" class="text-sm text-muted-foreground hover:text-foreground">
+            Privacy Policy
+         
