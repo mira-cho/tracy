@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --background: 90 30% 80%; /* Light sage green */
-  --foreground: 100 20% 90%; /* Light sage green */
+  --background: 100 20% 90%; /* Light sage green */
+  --foreground: 100 20% 90%; /* Light sage green - not the hero foreground*/
   --card: 0 0% 100%;
   --card-foreground: 120 10% 20%;
   --popover: 0 0% 100%;
