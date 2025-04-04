@@ -8,10 +8,10 @@
   --card-foreground: 120 10% 20%;
   --popover: 0 0% 100%;
   --popover-foreground: 120 10% 20%;
-  --primary: 100 20% 90%; /* Darker sage green for primary - THIS is the main hero foreground*/
+  --primary: 100 20% 90%; /* Darker sage green for primary - This is also not the main hero foreground*/
   --primary-foreground: 60 9.1% 97.8%;
   --secondary: 120 15% 93%;
-  --secondary-foreground: 120 20% 75%; /*darker green*/
+  --secondary-foreground:  90 30% 90%; /*darker green - latest experiment */
   --muted: 90 30% 80%; /* Light sage green */
   --muted-foreground: 100 20% 40%;
   --accent: 120 15% 93%;
