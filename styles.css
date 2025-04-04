@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --background: 100 20% 90%; /* Light sage green - is this the main hero foreground? */
-  --foreground: 100 20% 90%; /* Light sage green - not the hero foreground*/
+  --background: 100 20% 90%; /* Light sage green - main hero background */
+  --foreground: 100 20% 90%; /* Light sage green -  hero foreground*/
   --card: 0 0% 100%;
   --card-foreground: 120 10% 20%;
   --popover: 0 0% 100%;
   --popover-foreground: 120 10% 20%;
-  --primary: 100 20% 90%; /* Darker sage green for primary - This is also not the main hero foreground*/
+  --primary: 100 20% 45%; /* i think this is the main text color*/
   --primary-foreground: 60 9.1% 97.8%;
   --secondary: 120 15% 93%;
-  --secondary-foreground:  90 30% 90%; /*darker green - latest experiment */
+  --secondary-foreground:  90 30% 90%; /*darker green - latest experiment*/
   --muted: 90 30% 80%; /* Light sage green */
-  --muted-foreground: 100 20% 40%;
+  --muted-foreground: 100 20% 40%; /* darker green foreground text */
   --accent: 120 15% 93%;
   --accent-foreground: 120 20% 30%;
   --destructive: 0 84.2% 60.2%;
