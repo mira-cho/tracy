@@ -1,26 +1,6 @@
 // Set current year in footer
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
-// Mobile menu functionality
-const mobileMenuButton = document.getElementById('mobile-menu-button');
-const closeMenuButton = document.getElementById('close-menu-button');
-const mobileMenu = document.getElementById('mobile-menu');
-const mobileLinks = document.querySelectorAll('.mobile-link');
-
-mobileMenuButton.addEventListener('click', () => {
-  mobileMenu.classList.add('open');
-});
-
-closeMenuButton.addEventListener('click', () => {
-  mobileMenu.classList.remove('open');
-});
-
-mobileLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
-  });
-});
-
 // Contact form functionality
 const contactForm = document.getElementById('contact-form');
 const submitButton = document.getElementById('submit-button');
