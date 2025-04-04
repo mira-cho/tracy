@@ -11,8 +11,8 @@
   --primary: 90 20% 70%; /* Darker sage green for primary */
   --primary-foreground: 60 9.1% 97.8%;
   --secondary: 120 15% 93%;
-  --secondary-foreground: 120 20% 55%; /*darker green*/
-  --muted: 120 15% 93%;
+  --secondary-foreground: 120 20% 75%; /*darker green*/
+  --muted: 90 30% 80%; /* Light sage green */
   --muted-foreground: 100 20% 40%;
   --accent: 120 15% 93%;
   --accent-foreground: 120 20% 30%;
