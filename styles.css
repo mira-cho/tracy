@@ -3,7 +3,7 @@
 
 :root {
   --background: 90 30% 80%; /* Light sage green */
-  --foreground: 120 10% 20%;
+  --foreground: 90 30% 80%; /* Light sage green */
   --card: 0 0% 100%;
   --card-foreground: 120 10% 20%;
   --popover: 0 0% 100%;
@@ -11,9 +11,9 @@
   --primary: 90 20% 70%; /* Darker sage green for primary */
   --primary-foreground: 60 9.1% 97.8%;
   --secondary: 120 15% 93%;
-  --secondary-foreground: 120 20% 30%;
+  --secondary-foreground: 120 20% 55%; /*darker green*/
   --muted: 120 15% 93%;
-  --muted-foreground: 120 10% 40%;
+  --muted-foreground: 100 20% 40%;
   --accent: 120 15% 93%;
   --accent-foreground: 120 20% 30%;
   --destructive: 0 84.2% 60.2%;
